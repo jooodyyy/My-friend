@@ -1,0 +1,56 @@
+{
+    background-color: #c0c0c0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.hidden { display: none; }
+
+#passcodeSection { text-align: center; }
+
+input {
+    font-size: 24px; padding: 15px; width: 140px;
+    text-align: center; border-radius: 12px; border: 2px solid #bebebe;
+    margin-bottom: 20px; outline: none;
+}
+
+.action-btn {
+    padding: 15px 40px; background-color: #752c2c;
+    color: white; border: none; border-radius: 8px;
+    cursor: pointer; font-weight: bold;
+}
+
+.card {
+    background: white;
+    width: 100%;
+    max-width: 450px;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.scroll-area {
+    max-height: 50vh;
+    overflow-y: auto;
+    margin: 20px 0;
+}
+
+#mainMessage {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    text-align: left;
+    white-space: pre-wrap;
+}
+
+.close-btn {
+    background: #333; color: white; border: none;
+    padding: 12px; border-radius: 8px; width: 100%;
+    cursor: pointer;
+  }
